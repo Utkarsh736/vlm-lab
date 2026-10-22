@@ -1,0 +1,16 @@
+# Python & Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model weights & large checkpoints (upload these to Hugging Face instead)
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+outputs/
+
+# Environment & logs
+.env
+venv/
+*.log
